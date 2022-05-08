@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name = "viewport" content="width=device-width,initial-scale=1.0">
+        <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+
+        <title>crashcoders</title>
+    </head>
+    <body>
+        <header class="text-gray-600 body-font">
+            <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+              <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10 text-white p-2 bg-indigo-500 rounded-full" viewBox="0 0 24 24">
+                  <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
+                </svg>
+                <span class="ml-3 text-xl">About company</span>
+              </a>
+              <nav class="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-400	flex flex-wrap items-center text-base justify-center">
+              </nav>
+              <button class="inline-flex items-center bg-gray-100 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0">Button
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-1" viewBox="0 0 24 24">
+                  <path d="M5 12h14M12 5l7 7-7 7"></path>
+                </svg>
+              </button>
+            </div>
+          </header>
+          <section class="text-gray-600 body-font">
+  <div class="container px-5 py-24 mx-auto">
+    <div class="flex flex-wrap w-full mb-20 flex-col items-center text-center">
+      <h1 class="sm:text-3xl text-2xl font-medium title-font mb-2 text-gray-900">Pitchfork Kickstarter Taxidermy</h1>
+      <p class="lg:w-1/2 w-full leading-relaxed text-gray-500">Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical gentrify, subway tile poke farm-to-table.</p>
+    </div>
+    <div class="flex flex-wrap -m-4">
+      <div class="xl:w-1/3 md:w-1/2 p-4">
+        <div class="border border-gray-200 p-6 rounded-lg">
+          <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4">
+            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-6 h-6" viewBox="0 0 24 24">
+              <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
+            </svg>
+          </div>
+          <h3 style="background-color: powderblue;"class="text-lg text-gray-900 font-medium title-font mb-2">Unstop</h3>
+          <p style="font: size 11px;"><a href="https://unstop.com/job/software-development-engineer-i-amazon-304665" class="text-lg text-gray-900 font-medium title-font mb-2">Software Development Engineer -1</a></p>
+          <p class="leading-relaxed text-base">Amazon</p>
+          
+          <p> Time line = 05-May-22,12:00 AM IST-26-May-22,12:00 AM IST</p>
+          <p> Eligibility : Graduate</p>
+        </div>
+      </div>
+      <div class="xl:w-1/3 md:w-1/2 p-4">
+        <div class="border border-gray-200 p-6 rounded-lg">
+          <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4">
+            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-6 h-6" viewBox="0 0 24 24">
+              <circle cx="6" cy="6" r="3"></circle>
+              <circle cx="6" cy="18" r="3"></circle>
+              <path d="M20 4L8.12 15.88M14.47 14.48L20 20M8.12 8.12L12 12"></path>
+            </svg>
+          </div>
+          <h3 style="background-color: powderblue;"class="text-lg text-gray-900 font-medium title-font mb-2">Unstop</h3>
+          <h2><a href="https://unstop.com/competition/hero-colabs-app-challenge-20-hero-motocorp-limited-276703?refId=BNRac15" class="text-lg text-gray-900 font-medium title-font mb-2">Hero CoLabs App Challenge 2.0</a>
+          <p class="leading-relaxed text-base">Hero MotoCorp Limited</p>
+          <p> Time line = 31-Mar-22,10:00 AM IST-14Jun22,11:59 AM IST</p>
+          <p> Eligibility :ALL</p>
+        </div>
+      </div>
+      <div class="xl:w-1/3 md:w-1/2 p-4">
+        <div class="border border-gray-200 p-6 rounded-lg">
+          <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4">
+            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-6 h-6" viewBox="0 0 24 24">
+              <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"></path>
+              <circle cx="12" cy="7" r="4"></circle>
+            </svg>
+          </div>
+          <h3 style="background-color: powderblue;"class="text-lg text-gray-900 font-medium title-font mb-2">Hackerearth</h3>
+          <h2><a href=https://www.hackerearth.com/challenges/hackathon/possibilities-hackathon/ class="text-lg text-gray-900 font-medium title-font mb-2">Possibilities hackathon 2022</a>
+          <p class="leading-relaxed text-base">Elasticrun powered by microsoft</p>
+          <p> Time line = 14-April-22,06:00 PM IST-08-May-22,11:55 PM IST</p>
+          <p> Eligibility :ALL</p>
+        </div>
+      </div>
+      <div class="xl:w-1/3 md:w-1/2 p-4">
+        <div class="border border-gray-200 p-6 rounded-lg">
+          <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4">
+            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-6 h-6" viewBox="0 0 24 24">
+              <path d="M4 15s1-1 4-1 5 2 8 2 4-1 4-1V3s-1 1-4 1-5-2-8-2-4 1-4 1zM4 22v-7"></path>
+            </svg>
+          </div>
+          <h3 style="background-color: powderblue;"class="text-lg text-gray-900 font-medium title-font mb-2">Hackerearth</h3>
+          <h2><a href=https://www.hackerearth.com/challenges/hackathon/orkes-hackfest/ class="text-lg text-gray-900 font-medium title-font mb-2">The Orakes Hack</a></h2>
+        <p class="leading-relaxed text-base">Netflix Conductor</p>
+        <p> Time line = 28-Mar-22,06:00 PM IST-15-May-22,11:59 PM IST</p>
+        <p> Eligibility :ALL</p>
+        </div>
+      </div>
+      <div class="xl:w-1/3 md:w-1/2 p-4">
+        <div class="border border-gray-200 p-6 rounded-lg">
+          <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4">
+            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-6 h-6" viewBox="0 0 24 24">
+              <path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"></path>
+            </svg>
+          </div>
+          <h3 style="background-color: powderblue;"class="text-lg text-gray-900 font-medium title-font mb-2">Hackerearth</h3>
+          <h2><a href=https://www.hackerearth.com/challenges/hackathon/cloud-fest-hackathon-2/ class="text-lg text-gray-900 font-medium title-font mb-2">Cloud Fest Hackathon</a></h2>
+          <p class="leading-relaxed text-base">Google Cloud</p>
+        <p> Time line = 01-April-22,06:00 PM IST-27-May-22,06:00 PM IST</p>
+        <p> Eligibility :ALL</p>
+        </div>
+      </div>
+      <div class="xl:w-1/3 md:w-1/2 p-4">
+        <div class="border border-gray-200 p-6 rounded-lg">
+          <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4">
+            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-6 h-6" viewBox="0 0 24 24">
+              <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+            </svg>
+          </div>
+          <h3 style="background-color: powderblue;"class="text-lg text-gray-900 font-medium title-font mb-2">Hackerearth</h3>
+          <h2><a href=https://www.hackerearth.com/challenges/hackathon/stackhack-22-3/ class="text-lg text-gray-900 font-medium title-font mb-2">StackHack 3.0</a></h2>
+          <p class="leading-relaxed text-base">Hackerearth</p>
+          <p> Time line = 15-April-22,08:30 PM IST-14-May-22,08:30 PM IST</p>
+        <p> Eligibility :ALL</p>
+        </div>
+      </div>
+      
+        <div class="xl:w-1/3 md:w-1/2 p-4">
+          <div class="border border-gray-200 p-6 rounded-lg">
+            <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4">
+              <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-6 h-6" viewBox="0 0 24 24">
+                <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
+              </svg>
+            </div>
+            <h3 style="background-color: powderblue;"class="text-lg text-gray-900 font-medium title-font mb-2">Hackerearth</h3>
+            <h2><a href=https://www.hackerearth.com/challenges/hackathon/Hack-for-Better-Tomorrow/ class="text-lg text-gray-900 font-medium title-font mb-2">Hack for Better Tomorrow </a></h2>
+            <p class="leading-relaxed text-base">Hackerearth</p>
+            <p> Time line = 05-May-22,12:00 PM IST-29-May-22,11:55 PM IST</p>
+          <p> Eligibility :ALL</p>  
+        </div>
+        </div>
+        <div class="xl:w-1/3 md:w-1/2 p-4">
+            <div class="border border-gray-200 p-6 rounded-lg">
+              <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4">
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-6 h-6" viewBox="0 0 24 24">
+                  <circle cx="6" cy="6" r="3"></circle>
+                  <circle cx="6" cy="18" r="3"></circle>
+                  <path d="M20 4L8.12 15.88M14.47 14.48L20 20M8.12 8.12L12 12"></path>
+                </svg>
+              </div>
+              <h3 style="background-color: powderblue;"class="text-lg text-gray-900 font-medium title-font mb-2">Hackerearth</h3>
+              <h2><a href="https://www.hackerearth.com/challenges/hackathon/accenture-campus-students/" class="text-lg text-gray-900 font-medium title-font mb-2">CTRL + HACK + INSERT Sustainability</a>
+              <p class="leading-relaxed text-base">Accenture</p>
+              <p> Time line = 13-May-22,06:00 PM IST-15-May-22,11:55 PM IST</p>
+              <p> Eligibility :ALL</p>
+            </div>
+          </div>
+          <div class="xl:w-1/3 md:w-1/2 p-4">
+            <div class="border border-gray-200 p-6 rounded-lg">
+              <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4">
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-6 h-6" viewBox="0 0 24 24">
+                  <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"></path>
+                  <circle cx="12" cy="7" r="4"></circle>
+                </svg>
+              </div>
+              <h3 style="background-color: powderblue;"class="text-lg text-gray-900 font-medium title-font mb-2">Hackerearth</h3>
+              <h2><a href=https://grabhackforgood.hackerearth.com/ class="text-lg text-gray-900 font-medium title-font mb-2">HackforGood:Grab hackathon 2022</a>
+              <p class="leading-relaxed text-base">Hackerearth</p>
+              <p> Time line = 30-May-22,12:00 AM IST-12-June-22,11:55 PM IST</p>
+              <p> Eligibility :ALL</p>
+            </div>
+          </div>
+          <div class="xl:w-1/3 md:w-1/2 p-4">
+            <div class="border border-gray-200 p-6 rounded-lg">
+              <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4">
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-6 h-6" viewBox="0 0 24 24">
+                  <path d="M4 15s1-1 4-1 5 2 8 2 4-1 4-1V3s-1 1-4 1-5-2-8-2-4 1-4 1zM4 22v-7"></path>
+                </svg>
+              </div>
+              <h3 style="background-color: powderblue;"class="text-lg text-gray-900 font-medium title-font mb-2">Unstop</h3>
+              <h2><a href=https://unstop.com/internship/software-engineering-internship-cornerstone-284976 class="text-lg text-gray-900 font-medium title-font mb-2">Software Engineering Internship</a></h2>
+            <p class="leading-relaxed text-base">Cornerstone</p>
+            <p> Time line = 25-April-22,11:27 AM IST-16-May-22,11:31 AM IST</p>
+            <p> Eligibility :Graduate,Engineering Students</p>
+            </div>
+          </div>
+          <div class="xl:w-1/3 md:w-1/2 p-4">
+            <div class="border border-gray-200 p-6 rounded-lg">
+              <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4">
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-6 h-6" viewBox="0 0 24 24">
+                  <path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"></path>
+                </svg>
+              </div>
+              <h3 style="background-color: powderblue;"class="text-lg text-gray-900 font-medium title-font mb-2">Unstop</h3>
+              <h2><a href=https://unstop.com/internship/security-analyst-internship-cornerstone-ondemand-284974 class="text-lg text-gray-900 font-medium title-font mb-2">Software Analyst Internship</a></h2>
+              <p class="leading-relaxed text-base">Cornerstone</p>
+            <p> Time line = 25-April-22,11:27 AM IST-27-May-22,11:27 AM IST</p>
+            <p> Eligibility :Graduate,Engineering Students</p>
+            </div>
+          </div>
+          <div class="xl:w-1/3 md:w-1/2 p-4">
+            <div class="border border-gray-200 p-6 rounded-lg">
+              <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4">
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-6 h-6" viewBox="0 0 24 24">
+                  <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+                </svg>
+              </div>
+              <h3 style="background-color: powderblue;"class="text-lg text-gray-900 font-medium title-font mb-2">Unstop</h3>
+              <h2><a href=https://unstop.com/internship/digital-marketing-internship-techmihirnaik-275105 class="text-lg text-gray-900 font-medium title-font mb-2">Digital Marketing Internship</a></h2>
+              <p class="leading-relaxed text-base">techmihirnaik</p>
+              <p> Time line = 16-Mar-22,05:00 PM IST-31-May-22,11:00 PM IST</p>
+            <p> Eligibility :ALL</p>
+            </div>
+          </div>
+            <div class="xl:w-1/3 md:w-1/2 p-4">
+              <div class="border border-gray-200 p-6 rounded-lg">
+                <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4">
+                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-6 h-6" viewBox="0 0 24 24">
+                    <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
+                  </svg>
+                </div>
+                <h3 style="background-color: powderblue;"class="text-lg text-gray-900 font-medium title-font mb-2">Unstop</h3>
+                <p style="font: size 11px;"><a href="https://unstop.com/internship/mcs-data-personal-banker-barclays-289752" class="text-lg text-gray-900 font-medium title-font mb-2">MCS Data Personal Banker</a></p>
+                <p class="leading-relaxed text-base">Barclays</p>
+                <p> Time line = 28-May-22,02:37 PM IST-19-May-22,02:37 PM IST</p>
+                <p> Eligibility : MBA students</p>
+              </div>
+            </div>
+            <div class="xl:w-1/3 md:w-1/2 p-4">
+                <div class="border border-gray-200 p-6 rounded-lg">
+                  <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4">
+                    <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-6 h-6" viewBox="0 0 24 24">
+                      <circle cx="6" cy="6" r="3"></circle>
+                      <circle cx="6" cy="18" r="3"></circle>
+                      <path d="M20 4L8.12 15.88M14.47 14.48L20 20M8.12 8.12L12 12"></path>
+                    </svg>
+                  </div>
+                  <h3 style="background-color: powderblue;"class="text-lg text-gray-900 font-medium title-font mb-2">Unstop</h3>
+                  <h2><a href="https://unstop.com/internship/technical-summer-internship-fiserv-india-pvt-ltd-289519" class="text-lg text-gray-900 font-medium title-font mb-2">Technical Summer Internship</a></h2>
+                  <p class="leading-relaxed text-base">Fiserv India Pvt. Ltd.</p>
+                  <p> Time line = 28-April-22,09:51 AM IST-19-May-22,09:51 AM IST</p>
+                  <p> Eligibility :Graduate,Engineering Students</p>
+                </div>
+              </div>
+              <div class="xl:w-1/3 md:w-1/2 p-4">
+                <div class="border border-gray-200 p-6 rounded-lg">
+                  <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4">
+                    <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-6 h-6" viewBox="0 0 24 24">
+                      <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"></path>
+                      <circle cx="12" cy="7" r="4"></circle>
+                    </svg>
+                  </div>
+                  <h3 style="background-color: powderblue;"class="text-lg text-gray-900 font-medium title-font mb-2">Unstop</h3>
+                  <h2><a href=https://unstop.com/internship/python-developer-internship-mnj-software-pvt-ltd-283667class="text-lg text-gray-900 font-medium title-font mb-2">Python Developer Internship</a>
+                  <p class="leading-relaxed text-base">MNJ Software Pvt. Ltd.</p>
+                  <p> Time line =23-Apr-22,12:00 AM IST - 14-May-22,11:59 PM IST</p>
+                  <p> Eligibility :Engineering Students</p>
+                </div>
+              </div>
+              <div class="xl:w-1/3 md:w-1/2 p-4">
+                <div class="border border-gray-200 p-6 rounded-lg">
+                  <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4">
+                    <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-6 h-6" viewBox="0 0 24 24">
+                      <path d="M4 15s1-1 4-1 5 2 8 2 4-1 4-1V3s-1 1-4 1-5-2-8-2-4 1-4 1zM4 22v-7"></path>
+                    </svg>
+                  </div>
+                  <h3 style="background-color: powderblue;"class="text-lg text-gray-900 font-medium title-font mb-2">Unstop</h3>
+                  <h2><a href=https://unstop.com/internship/software-engineering-internship-cornerstone-284976 class="text-lg text-gray-900 font-medium title-font mb-2">Talent Acquisition Internship</a></h2>
+                <p class="leading-relaxed text-base">Upstox</p>
+                <p> Time line = 23-Apr-22,12:00 AM IST - 14-May-22,12:00 AM IST</p>
+                <p> Eligibility :Graduate</p>
+                </div>
+              </div>
+              <div class="xl:w-1/3 md:w-1/2 p-4">
+                <div class="border border-gray-200 p-6 rounded-lg">
+                  <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4">
+                    <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-6 h-6" viewBox="0 0 24 24">
+                      <path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"></path>
+                    </svg>
+                  </div>
+                  <h3 style="background-color: powderblue;"class="text-lg text-gray-900 font-medium title-font mb-2">Coding Ninja</h3>
+                  <h2><a href=https://www.codingninjas.com/codestudio/contests/love-babbar-contest-9 class="text-lg text-gray-900 font-medium title-font mb-2">Love Babbar Contest 9</a></h2>
+                  <p class="leading-relaxed text-base">Coding Ninja</p>
+                <p> Time line = 14-May-22,09:00 PM IST-14 May, 10:30 PM IST</p>
+                <p> Eligibility :Graduate,Engineering Students</p>
+                </div>
+              </div>
+              <div class="xl:w-1/3 md:w-1/2 p-4">
+                <div class="border border-gray-200 p-6 rounded-lg">
+                  <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4">
+                    <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-6 h-6" viewBox="0 0 24 24">
+                      <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+                    </svg>
+                  </div>
+                  <h3 style="background-color: powderblue;"class="text-lg text-gray-900 font-medium title-font mb-2">Coding Ninja</h3>
+                  <h2><a href="https://www.hirist.com/j/kreditpaisa-technology-frontend-developer-reactjsredux-1-2-yrs-1035352.html?ref=jp_fp_codingninja class="text-lg text-gray-900 font-medium title-font mb-2">Frontend Developer</a></h2>
+                  <p class="leading-relaxed text-base">KreditPaisa Technology </p>
+                  <p> Posted on  = 7 days ago</p>
+                <p> Skills:React.js,Html,Java Script</p>
+                </div>
+              </div>
+              <div class="xl:w-1/3 md:w-1/2 p-4">
+                <div class="border border-gray-200 p-6 rounded-lg">
+                  <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4">
+                    <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-6 h-6" viewBox="0 0 24 24">
+                      <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
+                    </svg>
+                  </div>
+                  <h3 style="background-color: powderblue;"class="text-lg text-gray-900 font-medium title-font mb-2">Devfolio</h3>
+                  <p style="font: size 11px;"><a href="https://warpspeed.devfolio.co/" class="text-lg text-gray-900 font-medium title-font mb-2">Warpspeed: A Web3 Hackathon by Lightspeed</a></p>
+                  <p class="leading-relaxed text-base">Devfolio</p>
+                  <p> Time line = 28-May-22,11:00 AM IST-29-May-22,05:00 PM IST</p>
+                  <p> Eligibility : ALL</p>
+                </div>
+              </div>
+              <div class="xl:w-1/3 md:w-1/2 p-4">
+                <div class="border border-gray-200 p-6 rounded-lg">
+                  <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4">
+                    <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-6 h-6" viewBox="0 0 24 24">
+                      <circle cx="6" cy="6" r="3"></circle>
+                      <circle cx="6" cy="18" r="3"></circle>
+                      <path d="M20 4L8.12 15.88M14.47 14.48L20 20M8.12 8.12L12 12"></path>
+                    </svg>
+                  </div>
+                  <h3 style="background-color: powderblue;"class="text-lg text-gray-900 font-medium title-font mb-2">Devfolio</h3>
+                  <h2><a href="https://unstop.com/internship/technical-summer-internship-fiserv-india-pvt-ltd-289519" class="text-lg text-gray-900 font-medium title-font mb-2">Hack for Inclusion</a></h2>
+                  <p class="leading-relaxed text-base">Devfolio</p>
+                  <p> Time line = 13-05-22,00:00 AM IST-15-May-22,11:59 PM IST</p>
+                  <p> Eligibility :Girls</p>
+                </div>
+              </div>
+    </div>
+    <button class="flex mx-auto mt-16 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg">Button</button>
+  </div>
+</section>
+    </body>
+</html>
