@@ -1,0 +1,1 @@
+web: gunicorn CrashCoders.wsgi --log-file -
